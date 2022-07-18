@@ -93,3 +93,53 @@ input {
     flex-direction: column;
     flex: 1;
 }
+
+.body .hero-section {
+    display: flex;
+    background-color:rgb(39, 26, 89);
+    align-items: center;
+    justify-content: center;
+    padding: 75px;
+}
+
+.body .hero-text {
+    margin-right: 100px;
+}
+
+.body .hero-section .heading {
+    color: white;
+    font-family: "Arvo", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.body .hero-section .text {
+    color: white;
+    font-family: "Roboto Serif", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.body .hero-section button{
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255,0.00);
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.body .hero-section a {
+    text-decoration: none;
+    color: white;
+    font-family: "Lato";
+    font-size: 20px;
+}
+
+.body .hero-section img {
+    width: 375px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.50);
+}
