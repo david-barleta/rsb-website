@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+html {
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    background-color: #e5e7eb;
+}
+
+.header {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo {
+    flex-shrink: 0;
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.links {
+    display: flex;
+    flex-shrink: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 60px;
+}
+
+.links a {
+    font-size: 18px;
+    font-family: "Roboto Serif";
+    text-decoration: none;
+    color: rgb(39, 26, 89);
+}
+
+.search {
+    margin-right: 50px;
+    flex-shrink: 0;
+}
+
+input {
+    padding: 5px;
+    border: 0;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
