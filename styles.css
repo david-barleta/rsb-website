@@ -13,7 +13,10 @@ html {
 
 body {
     margin: 0;
+    height: 100vh;
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -23,6 +26,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 50px;
 }
 
 .logo img {
@@ -34,7 +38,6 @@ body {
     flex-shrink: 0;
     height: 70px;
     width: 50px;
-    margin-left: 50px;
     padding: 5px;
 }
 
@@ -49,14 +52,13 @@ body {
 
 .links a {
     font-size: 18px;
-    font-family: "Roboto Serif";
+    font-family: "Roboto Serif", sans-serif;
     text-decoration: none;
     color: rgb(39, 26, 89);
 }
 
 .search {
     display: flex;
-    margin-right: 50px;
     flex-shrink: 0;
 }
 
@@ -72,4 +74,22 @@ input {
 .search img {
     max-width: 25px;
     max-height: 25px;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(39, 26, 89);
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto Serif", sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    flex-shrink: 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
