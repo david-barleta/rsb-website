@@ -33,7 +33,7 @@ body {
 .logo {
     flex-shrink: 0;
     height: 70px;
-    width: 70px;
+    width: 50px;
     margin-left: 50px;
     padding: 5px;
 }
@@ -55,6 +55,7 @@ body {
 }
 
 .search {
+    display: flex;
     margin-right: 50px;
     flex-shrink: 0;
 }
@@ -64,5 +65,11 @@ input {
     border: 0;
     box-shadow: 0 0 15px 4px rgba(0,0,0,0.15);
     border-radius: 10px;
+    margin-right: 10px;
+    width: 150px;
 }
 
+.search img {
+    max-width: 25px;
+    max-height: 25px;
+}
