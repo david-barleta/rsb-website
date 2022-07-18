@@ -47,13 +47,14 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 60px;
+    gap: 100px;
 }
 
 .links a {
     font-size: 18px;
     font-family: "Roboto Serif", sans-serif;
     text-decoration: none;
+    font-weight: bold;
     color: rgb(39, 26, 89);
 }
 
@@ -199,7 +200,7 @@ input {
     padding: 75px 150px;
 }
 
-.mission {
+.mission-section .heading {
     color: white;
     font-family: "Lato", sans-serif;
     font-size: 48px;
@@ -210,7 +211,6 @@ input {
 
 .mission-text{
     font-family: "Roboto Serif", sans-serif;
-    font-style: italic;
     font-size: 26px;
     color: white;
     text-align: justify;
@@ -260,4 +260,174 @@ input {
     font-family: "Roboto Serif", sans-serif;
     color: white;
     font-size: 20px;
+}
+
+/* About Us web page */
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    align-items: center;
+}
+
+.about-us .heading {
+    color:rgb(39, 26, 89);
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.about-us .text {
+    font-family: "Roboto Serif", sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    color: #1F2937;
+}
+
+.mission {
+    background-color: rgb(39, 26, 89);
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    align-items: center;
+}
+
+.mission .heading {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.mission .text {
+    font-family: "Roboto Serif", sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    color: white;
+}
+
+.vision {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    align-items: center;
+}
+
+.vision .heading {
+    color:rgb(39, 26, 89);
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.vision .text {
+    font-family: "Roboto Serif", sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    color: #1F2937;
+}
+
+.core-values {
+    background-color: rgb(39, 26, 89);
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    align-items: center;
+}
+
+.core-values .heading {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.core-values img {
+    border-radius: 15px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.50);
+}
+
+.president {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+    align-items: center;
+}
+
+.president .heading {
+    color:rgb(39, 26, 89);
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.president .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+}
+
+.president img {
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+}
+
+.president .name {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color:rgb(39, 26, 89);
+    margin-bottom: 10px;
+}
+
+.president .text {
+    font-family: "Roboto Serif", sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    color: #1F2937;
+}
+
+.president .sub-heading {
+    color:rgb(39, 26, 89);
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.president .affiliation {
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    width: 900px;
+}
+
+.affiliation .entity {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color:rgb(39, 26, 89);
+    margin-bottom: 10px;
+}
+
+.entity-logo {
+    display: flex;
+}
+
+.entity-logo img {
+    width: 200px;
+    height: auto;
+}
+
+.affiliation .text {
+    margin-bottom: 30px;
 }
