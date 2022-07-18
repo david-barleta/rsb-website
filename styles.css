@@ -146,13 +146,13 @@ input {
     box-shadow: 0 0 15px 4px rgba(0,0,0,0.50);
 }
 
-/* Our services section*/
+/* Our services section */
 
 .services-section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 0;
+    padding: 75px 0;
 }
 
 .services-section .heading {
@@ -160,7 +160,7 @@ input {
     font-family: "Lato", sans-serif;
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 .services {
@@ -186,4 +186,32 @@ input {
     flex-direction: column;
     align-items: center;
     gap: 15px;
+}
+
+/* Mission section */
+
+.mission-section {
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(39, 26, 89);
+    align-items: center;
+    justify-content: center;
+    padding: 75px 150px;
+}
+
+.mission {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+
+.mission-text{
+    font-family: "Roboto Serif", sans-serif;
+    font-style: italic;
+    font-size: 26px;
+    color: white;
+    text-align: justify;
 }
